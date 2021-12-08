@@ -1,0 +1,60 @@
+body
+{
+    text-align:center;
+    width:100%;
+    margin:0 auto;
+    padding:0px;
+    font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+    /*background: linear-gradient(white, #D3D8E8);*/
+}
+#header_wrapper
+{
+    width:100%;
+    min-width:980px;
+    background-color:#4c66a4;
+}
+
+#header
+{
+    width:980px;
+    margin:0px auto;
+    padding:0px;
+    height:85px;
+}
+
+#header li
+{list-style-type:none;
+    float:left;
+    text-align:left;
+    color:white;
+}
+#header #sitename
+{
+    margin-top:25px;
+}
+#header #sitename a
+{
+    color:white;
+    text-decoration:none;
+    font-size:30px;
+    font-weight:900;
+}
+
+.welcome2FB{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 980px;
+    margin: 0px auto;
+
+    /*margin-left: 50px;*/
+    margin-top: 200px;
+}
+
+h1{
+    font-family: 'Lobster', cursive;
+    font-weight:900;
+    font-size: 30px;
+
+}
+
