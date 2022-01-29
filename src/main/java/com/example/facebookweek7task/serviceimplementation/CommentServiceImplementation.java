@@ -14,10 +14,8 @@ import java.util.List;
 @Service
 public class CommentServiceImplementation implements CommentService {
 
-    final
-    CommentRepository commentRepository;
-    final
-    PostRepository postRepository;
+    private final CommentRepository commentRepository;
+    private final PostRepository postRepository;
 
     public CommentServiceImplementation(CommentRepository commentRepository, PostRepository postRepository) {
         this.commentRepository = commentRepository;

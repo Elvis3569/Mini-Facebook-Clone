@@ -60,7 +60,6 @@ public class UserController {
     /**
      * Method to get the index page
      * model
-     *
      */
     @GetMapping("/")
     public String getLogInPage(Model model) {

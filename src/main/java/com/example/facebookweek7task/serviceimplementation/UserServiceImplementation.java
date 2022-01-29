@@ -49,7 +49,7 @@ public class UserServiceImplementation implements UserService {
     /**
      * Method to log in a user
      * user the user to be logged in
-     *  the response
+     * the response
      */
     public ResponseDTO logInUser(User user) {
         Optional<User> userDb = userRepository.getUserByEmailAddressAndPassword
